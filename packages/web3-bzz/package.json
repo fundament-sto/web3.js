@@ -1,5 +1,5 @@
 {
-    "name": "web3-bzz",
+    "name": "@fundament/web3-bzz",
     "namespace": "ethereum",
     "version": "1.0.0-beta.37",
     "description": "Web3 module to interact with the Swarm network.",
