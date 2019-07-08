@@ -1,19 +1,19 @@
 {
     "name": "@fundament/web3-eth-contract",
     "namespace": "ethereum",
-    "version": "1.0.0-beta.39",
+    "version": "1.0.1-beta.0",
     "description": "Web3 module to interact with Ethereum smart contracts.",
     "repository": "https://github.com/ethereum/web3.js/tree/1.x/packages/web3-eth-contract",
     "license": "LGPL-3.0",
     "main": "src/index.js",
     "dependencies": {
-        "@fundament/web3-core": "1.0.0-beta.39",
-        "@fundament/web3-core-helpers": "1.0.0-beta.39",
-        "@fundament/web3-core-method": "1.0.0-beta.39",
-        "@fundament/web3-core-promievent": "1.0.0-beta.39",
-        "@fundament/web3-core-subscriptions": "1.0.0-beta.39",
-        "@fundament/web3-eth-abi": "1.0.0-beta.39",
-        "@fundament/web3-utils": "1.0.0-beta.39",
+        "@fundament/web3-core": "1.0.1-beta.0",
+        "@fundament/web3-core-helpers": "1.0.1-beta.0",
+        "@fundament/web3-core-method": "1.0.1-beta.0",
+        "@fundament/web3-core-promievent": "1.0.1-beta.0",
+        "@fundament/web3-core-subscriptions": "1.0.1-beta.0",
+        "@fundament/web3-eth-abi": "1.0.1-beta.0",
+        "@fundament/web3-utils": "1.0.1-beta.0",
         "underscore": "1.9.1"
     }
 }
