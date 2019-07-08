@@ -49,5 +49,16 @@
         "@fundament/web3-net": "1.0.1-beta.0",
         "@fundament/web3-shh": "1.0.1-beta.0",
         "@fundament/web3-utils": "1.0.1-beta.0"
+    },
+    "scripts": {
+        "docker": "CURRENT_UID=$(id -u):$(id -g) docker-compose run --workdir='/home/node/packages/web3' runner",
+        "test:integration": "npm run docker npm run test:integration:script",
+        "test:integration:script": "jest --testMatch='/**/*.Itest.js'"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.5.0",
+        "@babel/preset-env": "^7.5.0",
+        "babel-jest": "^24.8.0",
+        "jest": "^24.8.0"
     }
 }

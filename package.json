@@ -19,7 +19,8 @@
         "docs": "cd docs; make html;",
         "lint": "jshint *.js packages",
         "test": "mocha; jshint *.js packages",
-        "test-coveralls": "istanbul cover _mocha -- -R spec && cat coverage/lcov.info | coveralls --verbose"
+        "test-coveralls": "istanbul cover _mocha -- -R spec && cat coverage/lcov.info | coveralls --verbose",
+        "test:integration": "lerna run test:integration"
     },
     "repository": {
         "type": "git",
