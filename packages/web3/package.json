@@ -1,7 +1,7 @@
 {
     "name": "@fundament/web3",
     "namespace": "ethereum",
-    "version": "1.0.1-beta.0",
+    "version": "1.0.1-beta.1",
     "description": "Ethereum JavaScript API",
     "repository": "https://github.com/ethereum/web3.js/tree/1.x/packages/web3",
     "license": "LGPL-3.0",
@@ -45,13 +45,13 @@
         }
     ],
     "dependencies": {
-        "@fundament/web3-bzz": "1.0.1-beta.0",
-        "@fundament/web3-core": "1.0.1-beta.0",
-        "@fundament/web3-eth": "1.0.1-beta.0",
-        "@fundament/web3-eth-personal": "1.0.1-beta.0",
-        "@fundament/web3-net": "1.0.1-beta.0",
-        "@fundament/web3-shh": "1.0.1-beta.0",
-        "@fundament/web3-utils": "1.0.1-beta.0"
+        "@fundament/web3-bzz": "1.0.1-beta.1",
+        "@fundament/web3-core": "1.0.1-beta.1",
+        "@fundament/web3-eth": "1.0.1-beta.1",
+        "@fundament/web3-eth-personal": "1.0.1-beta.1",
+        "@fundament/web3-net": "1.0.1-beta.1",
+        "@fundament/web3-shh": "1.0.1-beta.1",
+        "@fundament/web3-utils": "1.0.1-beta.1"
     },
     "scripts": {
         "docker": "CURRENT_UID=$(id -u):$(id -g) docker-compose run --workdir='/home/node/packages/web3' runner",
