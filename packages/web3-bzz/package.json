@@ -6,6 +6,9 @@
     "repository": "https://github.com/ethereum/web3.js/tree/1.x/packages/web3-bzz",
     "license": "LGPL-3.0",
     "main": "src/index.js",
+    "publishConfig": {
+        "access": "public"
+    },
     "dependencies": {
         "got": "9.6.0",
         "swarm-js": "0.1.39",

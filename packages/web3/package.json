@@ -6,6 +6,9 @@
     "repository": "https://github.com/ethereum/web3.js/tree/1.x/packages/web3",
     "license": "LGPL-3.0",
     "main": "src/index.js",
+    "publishConfig": {
+        "access": "public"
+    },
     "bugs": {
         "url": "https://github.com/ethereum/web3.js/issues"
     },
